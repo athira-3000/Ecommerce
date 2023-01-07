@@ -4,8 +4,8 @@ import RemoveIcon from '@mui/icons-material/Remove';
 function Card(props) {
   return (
     <div className="card">
-        <div className="cardImg"><img src={`"${props.src}"`} alt={props.alt}/></div>
-        <div className="cardDesc">
+        <div className="cardImg"><img src={props.src} alt={props.alt}/></div>
+        <div className="cardDescItem">
             <h2>{props.title}</h2>
             <p>{props.description}</p>
         </div>
