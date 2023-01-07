@@ -1,0 +1,32 @@
+body{
+  margin:0;
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+}
+li{
+  text-decoration: none;
+  display: inline;
+  margin: auto 10px;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.card{
+  display:flex;
+  margin:5px 10px;
+  background-color: rgb(208, 222, 222);
+}
+.cardImg{
+  flex:4;
+}
+.cardDesc{
+  flex:4;
+  padding: 10px;
+}
+.cardDescPrice{
+  flex:4;
+  padding: 10px;
+}
